@@ -89,12 +89,21 @@
 
 @media (max-width:400px){
     .pimg1 ,.pimg2 , .pimg3, .pimg4{
-        background-attachment: fixed;
+        background-attachment: scroll;
     }
 }
-
-.ptext, .pimg2{
-    color: aqua;
-    width: 100%;
+.ptext .pborder{
+    background-color:black;
+    color: white;
+    padding: 10px;
 }
 
+.ptext ,.pimg2 {
+    color: aqua;
+    width: 100%;
+    font-size: medium;
+}
+.section{
+    text-align: center;
+    padding: 30px 60px;
+}
